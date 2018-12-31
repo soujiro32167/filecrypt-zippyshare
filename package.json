@@ -2,13 +2,18 @@
   "name": "filecrypt-zippyshare",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "11.x"
+  },
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "jsdom": "^13.1.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
